@@ -1,0 +1,493 @@
+.menu-principal{
+    background-color: grey;
+}
+
+.menu-principal a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-superior{
+    display: flex;
+    
+}
+
+.menu-superior li{
+    margin: 10px;
+}
+
+.logo-numero{
+    display: flex;
+}
+
+.telefono-logo{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.img-fondo{
+    background-image: url(imagenes/banner_principa-1.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.menu-inferior{
+    padding: 20px;
+}
+
+.texto-wally{
+    color: white;
+    margin-top: 200px;
+}
+
+.texto-wally h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.texto-wally h2{
+font-size: 45px;
+margin-bottom: 20px;
+}
+
+.texto-wally p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.pay{
+    margin-top: 100px;
+}
+
+.sub-menu-inferior{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.sub-menu-inferior a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton{
+    background-color: #8ae08a;
+    padding: 5px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.seccion-tienda{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.titulo-tienda{
+    margin-bottom: 30px;
+    color: gray;
+    font-family: 'Lucida Sans';
+    font-size: 25px;
+}
+.seccion-tienda h3{
+    color: rgba(68, 68, 68, 0.952);
+    font-size: 25px;
+}
+
+.seccion-tienda p{
+    color: gray;
+    font-size: 20px;
+}
+
+.seccion-funciones-tienda{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: gray;
+}
+
+.seccion-link{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.seccion-link li{
+    border: 1px solid gray;
+    width: 180px;
+}
+
+.seccion-link a{
+    font-size: 16px;
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.seccion-link div{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.seccion-categorias h3{
+    color: gray;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.seccion-categorias h4{
+    color: rgba(139, 138, 138, 0.849);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.seccion-categorias p{
+    color: rgba(160, 160, 160, 0.89);
+    margin-bottom: 10px;
+}
+
+.seccion-negocio{
+    text-align: center;
+}
+
+
+.titulo-negocio h2{
+    margin-bottom: 20px;    
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.titulo-negocio p{
+    margin-bottom: 50px;
+    color: rgba(160, 160, 160, 0.89);
+    font-size: 20px;
+
+}
+
+.restaurant-img{
+    background-image: url("imagenes/tipo_negocio_restaurant.png");
+    background-size: cover;
+    width: 304px;
+    height: 280px;
+    display: block;
+}
+
+.retail-img{
+    background-image: url("imagenes/tipo_negocio_retail.png");
+    background-size: cover;
+    width: 304px;
+    height: 280px;
+    display: block;
+}
+
+.seccion-negocio a{
+    text-decoration:none;
+}
+
+.comida-img{
+    background-image: url("imagenes/tipo_negocio_fastfood.png");
+    background-size: cover;
+    width: 304px;
+    height: 280px;
+    display: block;
+}
+
+.alineacion-negocio-text{
+    padding-top: 100px;
+}
+
+.mas-empresas{
+    width: 185px;
+    border: 2px solid grey;
+    margin-top: 50px;
+}
+
+.mas-empresas-boton{
+    color: grey;
+    text-decoration: none;
+ 
+}
+
+.alineacion-negocio-text p{
+    color: white;
+    text-decoration: none;
+}
+
+.titulo-equipos{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.titulo-equipos img{
+    max-width: 100%;
+}
+
+.texto-equipos{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.texto-equipos h3{
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+
+.texto-equipos p{
+    font-size: 16px;
+    color: rgba(160, 160, 160, 0.89);
+    margin-top: 10px
+}
+
+
+
+.titulo-clientes{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.titulo-clientes h2{
+    margin-bottom: 50px;
+}
+
+.seccion-pregunta{
+    margin-top: 50px;
+}
+
+.seccion-pregunta h3{
+    margin-top: 50px;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.seccion-pregunta p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.seccion-pregunta img{
+    max-width: 100%;
+}
+
+.seccion-contacto{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.flex{
+    display: flex;
+    color: gray;
+}
+
+.flex img{
+    margin-right: 15px;
+}
+
+.flex a{
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+}
+
+.footer{
+    background-color: grey;
+}
+
+.seccion-footer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.seccion-footer img{
+    margin-top: 50px;
+}
+
+.seccion-footer h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px
+}
+
+.seccion-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.final{
+    background-color: white;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.menu-hamburguesa{
+
+}
+
+.texto-menu{
+    color: white;
+}
+
+.raya{
+    border-bottom: 2px solid ghostwhite;
+    width: 30px;
+    margin-bottom: 5px;
+}
+@media (min-width: 768px) and (max-width:1024px){
+
+    .texto-wally-pos{
+        margin-top: -140px;
+        width: 420px;
+    }
+
+    .boton{
+        font-size: 20px;
+    }
+    .texto-wally h1{
+        font-size: 20px;
+    }
+    .texto-wally h2{
+        font-size: 32px;
+    }
+
+    .titulo-tienda{
+        font-size: 20px;
+    }
+
+    .titulo-equipos{
+        margin-top: 45px;
+    }
+
+    .titulo-clientes h2{
+        margin-bottom: 15px;
+        margin-top: -60px;
+    }
+
+    .seccion-link{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .comida-img{
+        margin-top: 20px;
+
+    }
+
+    .seccion-pregunta h3{
+        font-size: 30px;
+    }
+    .seccion-contacto{
+        margin-top: 50px;
+    }
+
+    .final{
+        font-size: 15px;
+    }
+
+    .seccion-footer{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    
+}
+
+
+
+
+@media (min-width: 320px) and (max-width:568px){
+
+    .boton{
+        font-size: 15px;
+    }
+
+    .pay{
+        margin-top: 35px;
+        margin-left: 95px;
+    }
+
+    .texto-wally{
+        margin-top: 0px;
+    }
+
+    .texto-wally h1{
+        font-size: 15px;
+    }
+
+    .texto-wally h2{
+        font-size: 25px;
+    }
+    .titulo-tienda{
+        font-size: 15px;
+    }
+
+    .titulo-equipos{
+        margin-top: 45px;
+    }
+
+    .titulo-clientes h2{
+        margin-bottom: 10px;
+        margin-top: -50px;
+    }
+
+    .seccion-link{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seccion-pregunta{
+            margin-top: 0;
+    }
+
+    .seccion-pregunta h3{
+            font-size: 20px;
+    }
+
+    .seccion-pregunta p{
+            font-size: 15px;
+    }
+
+    .seccion-contacto{
+            margin-top: 50px;
+    }
+
+    .seccion-footer{
+            padding-top: 0px;
+    }
+
+    .seccion-footer h4{
+            margin-top: 15px;
+            margin-bottom: 5px
+    }
+
+    .final{
+            font-size: 10px;
+    }
+
+    .restaurant-img{
+        margin-bottom: 20px;
+    }
+
+    .comida-img{
+            margin-top: 20px;
+    
+    }
+
+    .flex img{
+        margin-bottom: 20px;
+    }
+
+
+}
+
